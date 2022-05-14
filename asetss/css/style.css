@@ -1,0 +1,1005 @@
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-Bold-web.eot');
+
+    src: url('../fonts/IRANSans-Bold-web.eot?#iefix') format('eot'),  /* IE6–8 */
+    url('../fonts/IRANSans-Bold-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSans-Bold-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans-Bold-web.ttf') format('ttf');
+    font-weight: bold;
+}
+@font-face {
+    fonts-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-Medium-web.eot');
+
+    src: url('../fonts/IRANSans-Medium-web.eot?#iefix') format('eot'),  /* IE6–8 */
+    url('../fonts/IRANSans-Medium-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSans-Medium-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans-Medium-web.ttf') format('ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-UltraLight-web.eot');
+
+    src: url('../fonts/IRANSans-UltraLight-web.eot?#iefix') format('eot'),  /* IE6–8 */
+    url('../fonts/IRANSans-UltraLight-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSans-UltraLight-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans-UltraLight-web.ttf') format('ttf');
+    font-weight: 200;
+}
+@font-face {
+    fonts-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-Light-web.eot');
+
+    src: url('../fonts/IRANSans-Light-web.eot?#iefix') format('eot'),  /* IE6–8 */
+    url('../fonts/IRANSans-Light-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSans-Light-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans-Light-web.ttf') format('ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-web.eot');
+
+    src: url('../fonts/IRANSans-web.eot?#iefix') format('eot'),  /* IE6–8 */
+    url('../fonts/IRANSans-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSans-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans-web.ttf') format('ttf');
+    font-weight: normal;
+}
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+    background-color: #f1f1f1;
+    font-family: IRANSans-web;
+}
+.iranb {
+    font-family: IRANSans-web;
+    font-weight: bold;}
+.iranm {
+    font-family: IRANSans-web;
+    font-weight: 500;
+}
+.iranxl {
+    font-family: IRANSans-web;
+    font-weight: 200;
+}
+.iranl {
+    font-family: IRANSans-web;
+    font-weight: 300;
+}
+.irann {
+    font-family: IRANSans-web;
+    font-weight: normal;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+
+}
+ul ,li,ol{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+
+}
+.top_header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.login_class{
+    display: flex;
+    justify-content: space-between;
+}
+.login_class ul{
+    display: flex;
+}
+.login_class ul li:first-child a{
+   background-color: #f9665b;
+}
+.login_class ul li a{
+    color: white;
+    background-color: #499dd9;
+    padding: 8px 10px;
+    margin:1px;
+    border-radius: 4px;
+}
+
+.user_login {
+   padding: 2px 10px;
+}
+.user_login a{
+    font-size: 12px;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 4px;
+}
+.login_class ul li a:hover{
+    background-color: #b5e57a;
+}
+.user_login:hover{
+    border-radius: 4px;
+    background-color: #b5e57a;
+    transition: all ease 1s;
+}
+/*end top header*/
+/* start nav menu*/
+header{
+    width: 100%;
+    background-color: #eeeeee;
+
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+header nav a img{
+    width: 70px;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+.nav_menu_top{
+    display: flex;
+    z-index: 2;
+}
+.nav_menu_top li a{
+    color: black;
+    padding: 14px 16px;
+    margin: 3px;
+    border-radius: 5px;
+
+}
+.nav_menu_top li a:hover{
+    transition: all ease 1s;
+    background-color: #f3a317;
+    color: #ffffff;
+}
+.icon_piper{
+    display: flex;
+}
+.icon_piper li a{
+    padding: 3px 10px;
+    color: black;
+    margin: 3px;
+    border-radius: 3px;
+}
+.icon_piper li a:hover{
+    transition: all ease 1s;
+    background-color: #f3a317;
+}
+.icon_bar{
+    display: none!important;
+}
+.show{
+    display: flex!important;
+    transition: all ease 1s;
+}
+
+/* end top bar*/
+/* start slider*/
+.slider_top{
+   margin-top: 20px;
+    border-radius: 5px;
+}
+.slider_top div div div img{
+    width: 100%;
+    height: 500px;
+}
+.slider_top div div div span{
+    position: relative;
+    bottom: 264px;
+    right: 91px;
+    background-color: rgb(104, 149, 195, 0.74);
+    padding: 14px 16px;
+    border-radius: 5px;
+    color: white;
+    width: 25%;
+    min-height: 150px;
+    display: inline-block;
+}
+.slider_content {
+   margin: 20px;
+}
+.swiper {
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+}
+.search{
+   width: 100%;
+   height: 388px;
+   background-image: url(../images/hotel.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.box_search{
+   background-color: #fff;
+   position: relative;
+   width: 600px;
+   top: 20%;
+   left: 5%;
+   margin-right: auto;
+   border-radius: 5px;
+}
+.box_search form {
+   padding: 10px;
+}
+
+.box_search label{
+    font-size: 10px;
+    color: white;
+}
+.box_search p{
+   display: block;
+   margin-bottom: 0;
+   padding: 10px;
+   color: #555;
+   font-weight: bold;
+}
+.box_search .box_date > div {
+   flex: 1;
+}
+
+.search_name_hotel{
+    width: 100%;
+    background-color: #b3c8d7;
+    padding: 6px 0;
+    border: 0;
+    font-family: IRANSans-web;
+    font-size: 10px;
+    border-radius: 2px;
+}
+.box_date{
+    display: flex;
+}
+.start_select_room, .end_select_room {
+    font-family: IRANSans-web;
+    width: 100%;
+    text-align: center;
+}
+.box_start{
+    margin-left: 50px;
+}
+.box_start label, .box_end label{
+   display: inline-block;
+    color: #555;
+
+   margin: 10px 0;
+}
+.item{
+    font-family: IRANSans-web;
+    width: 80%;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px 4px;
+}
+.search_box_button{
+    display: flex;
+
+}
+.button_search{
+   width: 100%;
+   margin: 15px auto;
+   border: 0;
+   border-radius: 5px;
+   font-size: 14px;
+   font-family: IRANSans-web;
+   background-color: #8bc34a;
+   color: white;
+   padding: 5px;
+   cursor: pointer;
+   transition: all .3s ease;
+}
+.button_search:hover{
+   background: #6b9d31;
+}
+
+.content{
+    width: 100%;
+
+}
+.item_section{
+    display: flex;
+    justify-content: space-between;
+
+}
+.bg-with{
+    background-color: #ffffff;
+    border-radius: 13px;
+    padding: 10px;
+}
+.name_hotel{
+    width: 35%;
+    margin: 10px 8px;
+
+
+}
+.name_hotel h4{
+    width: 90%;
+    padding:8px 0px;
+    text-align: center;
+    background-color: #10ff00;
+    margin: 5px auto;
+    border-radius: 4px;
+}
+.name_hotel ul{
+    margin-right: 7%;
+}
+.name_hotel ul li{
+    width: 90%;
+    padding-right: 8px;
+    border-radius: 4px;
+
+}
+.name_hotel ul li:hover{
+    transition: all ease 1s;
+    background-color: #4378d0;
+    color: white;
+}
+.name_hotel ul li a{
+    color: black;
+}
+
+footer {
+    background-image: url("../images/footer-vector-bg.png");
+    background-color: #282f37;
+    height: 200px;
+}
+.item_footer{
+    display: flex;
+    justify-content: center;
+}
+.item_footer div{
+    width: 40%;
+    text-align: center;
+   margin-top: 80px;
+}
+.item_footer div p a{
+    width: 90%;
+    border-radius: 4px;
+
+    color:white;
+    padding: 8px 8px;
+}
+.item_footer div p:hover a{
+    background-color: white;
+    color: black;
+    transition: all ease 1s;
+}
+.content_room{
+    min-height: 25rem;
+    width: 100%;
+    background-color: #eeeeee;
+    padding-top: 20px;
+}
+.container_room{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.description h3{
+    background-color: #499dd9;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+}
+.sidebar{
+    width: 30%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 7px;
+    height: 400px;
+    display: inline-block;
+    position: sticky;
+    top: 10px;
+}
+.room_singl_product {
+    width: 68%;
+    margin-left: 2%;
+}
+.description_room_site{
+   margin: 20px 0;
+   width: 100%;
+   padding: 20px;
+   text-align: justify;
+   background: white;
+   border-radius: 4px;
+}
+.text_room_price{
+    color: #9b9999ee;
+    font-size: 10px;
+    /*padding-right: 48px;*/
+    margin-bottom: 15px;
+}
+.price{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.price span{
+    color: #fb7b72;
+}
+.price a{
+    float: left;
+    padding: 8px 70px;
+    background-color: #10ff00;
+    color: white;
+    font-weight: normal;
+    border-radius: 4px;
+
+}
+.category {
+    margin-bottom: 20px;
+}
+.category p,
+.link_room p{
+    background-color: #e1e1e1;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.category ul li a,
+.link_room ul li a{
+    width: 100%;
+    color: white;
+    border-radius: 4px;
+    padding: 7px 10px;
+    margin-bottom: 5px;
+    font-family: IRANSans-web;
+    background: #499dd9;
+    font-size: 12px;
+    display: block;
+    transition: all .3s
+}
+.category ul li a:hover,
+.link_room ul li a:hover{
+    background: #2b6087;
+}
+.room{
+    width: 100%;
+}
+
+.cart{
+    width: 80%;
+    margin: 20px auto;
+}
+.cart_content{
+    display: flex;
+    justify-content: space-between;
+}
+.description_room{
+    width: 40%;
+
+}
+.description_room div img{
+    width: 100%;
+    margin: 5px auto;
+    border-radius: 10px;
+}
+.description_room div p{
+    background-color: #499dd9;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    padding: 8px 10px;
+    width:100%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.form_cart{
+    width: 50%;
+    background: white;
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.form_cart label{
+    font-family: IRANSans-web;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 10px 5px;
+}
+.form_cart_subject input{
+    font-family: IRANSans-web;
+    width: 100%;
+    padding: 6px;
+    border-radius: 4px;
+    border: 0;
+    background-color: #eeeeee;
+
+}
+.form_cart button{
+    float: left;
+    background-color: #10ff00;
+    color: white;
+    font-family: IRANSans-web;
+    border-radius: 4px;
+    padding: 12px 14px;
+    border:0;
+    margin-top: 10px;
+}
+.form_cart p{
+    padding: 8px 10px;
+    background-color: #2196f3;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 4px;
+    color: white;
+    font-family: IRANSans-web;
+}
+.price_ent{
+    cursor: pointer!important;
+}
+/* start register*/
+.register{
+    width: 100%;
+
+}
+.box_register{
+    width: 50%;
+    margin: 150px auto;
+    font-family: IRANSans-web;
+    box-shadow: 0px 0px 17px -8px #7c7c7c;
+    background-color: #fff;
+    padding: 30px 30px;
+    border-radius: 5px;
+}
+.box_register h3{
+    text-align: center;
+}
+.box_register form label,
+.form_cart_subject label{
+   color: #6a6a6a;
+   font-size: 13px;
+   display: block;
+   margin-top: 15px;
+   margin-bottom: 6px;
+}
+
+.box_register small {
+    font-size: smaller;
+    color: #a6b4d3;
+}
+
+#login_button,
+#register_button,
+.price a,
+.form_cart button {
+   background-color: #4caf50;
+   transition: all .2s ease;
+}
+#login_button:hover,
+#register_button:hover,
+.price a:hover,
+.form_cart button:hover {
+   background-color: #358738;
+}
+.box_register form input,
+.form_cart_subject input{
+   width: 100%;
+   font-family: IRANSans-web;
+   border-radius: 4px;
+   background-color: #e9e9e9;
+   border-radius: 9px;
+   padding: 10px;
+   border: 1px solid #d7d7d7;
+}
+.box_register form input:focus{
+   background-color: #d7d7d7;
+}
+.box_sent{
+    margin: 10px auto;
+}
+.box_sent button{
+    float: left;
+    padding: 12px 18px;
+    font-family: IRANSans-web;
+    background-color: #f3a317;
+    color: white;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+
+}
+.box_sent a{
+   padding: 12px 29px;
+   font-family: IRANSans-web;
+   background-color: #dfdfdf;
+   color: black;
+   border-radius: 4px;
+   border: 0;
+   cursor: pointer;
+   font-size: 13px;
+   margin-top: 3px;
+   display: inline-block;
+}
+
+
+/* end register*/
+.box_alert{
+    width: 30%;
+    margin: 20px auto;
+    background-color: #b5e57a;
+    font-family: IRANSans-web;
+    font-weight: 600;
+    padding: 14px;
+    border-radius: 4px;
+    text-align: center;
+}
+.table_payment{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.table_payment tr:first-child td {
+   color: white;
+   background: #747474;
+   text-align: center;
+   font-weight: bold;
+   font-size: 15px;
+   padding: 10px;
+}
+.table_payment tr td{
+   text-align: center;
+   padding: 20px 10px;
+   font-size: 13px;
+   border-collapse: collapse;
+}
+/* weget start*/
+.wigear{
+    width: 100%;
+}
+.box_wegir{
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+}
+.box_wegir>div{
+    width: 25%;
+    border: 1px solid #a1aab3;
+    margin: 20px 10px;
+    border-radius: 8px;
+    background-color: white;
+
+}
+.icon_wegir{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin: 10px 0;
+    color: #ff333d;
+}
+
+.title_wegir{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #3a3a3a;
+}
+.text_wegir{
+    font-family: IRANSans-web;
+    text-align: justify;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+/* weget end*/
+/*abuth start*/
+.box_abuth{
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+}
+.content_abuth_one{
+    background-color: white;
+    border-radius: 13px;
+    padding: 8px;
+    font-family: IRANSans-web;
+    margin: 30px 0;
+}
+.content_abuth_one >div{
+    display: flex;
+    align-items: flex-start;
+}
+.content_abuth_one >div>img{
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    margin: 0 10px;
+
+}
+.content_abuth_one >div>a{
+    color: #3b3b3b;
+    font-weight: 600;
+}
+.content_abuth_one p{
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 300;
+    padding: 10px 20px;
+}
+.content_abuth_one ul{
+    padding-right: 40px;
+    font-size: 14px;
+}
+.content_abuth_one ul li{
+    list-style: disc;
+
+}
+.pad-20{
+    padding: 30px;
+}
+
+/*abuth end*/
+/* start box_title_hotel*/
+.box_title_hotel{
+    display: flex;
+    width: 100%;
+    font-family: IRANSans-web;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 4px;
+}
+.box_title_hotel a{
+    background-color: #6a8395;
+    color: white;
+    font-size: 11px;
+    padding: 6px 8px;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+
+/* end box_title_hotel*/
+
+/*description_hotel*/
+.description_hotel{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*description_hotel*/
+/*contact_abuth start*/
+.contact_abuth {
+    width: 90%;
+    min-height: 600px;
+    margin: 3em auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 17px -8px #7c7c7c;
+    background-color: white;
+    font-family: IRANSans-web;
+    padding: 30px 70px;
+    box-sizing: inherit;
+}
+.contact_abuth h4 {
+   text-align: center;
+   font-size: large;
+}
+
+.instagram{
+    font-size: 20px;
+}
+.instagram a{
+    color: black;
+    margin: 2px 5px;
+    font-size: 30px;
+}
+
+/*contact_abuth end*/
+
+
+
+.is-flex {
+   display: flex;
+}
+
+.is-flex-wrap {
+   flex-wrap: wrap;
+}
+
+.is-flex-1 {
+   flex: 1;
+}
+
+.hotel-room-wrapper {
+   margin: 0 auto;
+   min-width: 300px;
+   text-align: center;
+   margin: 0 9px;
+}
+
+.hotel-room-wrapper .hotel-room {
+   background: white;
+   border-radius: 4px;
+   padding: 10px;
+   border: 1px solid #d5d5d5;
+   margin: 10px auto;
+   width: 300px;
+   max-width: 100%;
+   transition: all .3s ease;
+   min-height: 220px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-room-wrapper .hotel-room:hover {
+   border-color: #a5a5a5;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+.hotel-room-wrapper .hotel-room img {
+   border-radius: 7px;
+}
+.hotel-room-wrapper .hotel-room a {
+   font-weight: bold;
+   display: block;
+   color: black;
+   margin-top: 10px;
+}
+
+.is-flex-row {
+   flex-direction: row !important;
+}
+.hotel-room-block {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   margin-bottom: 10px;
+}
+.front-page-hotels {
+   justify-content: center;
+}
+.front-page-hotels .hotel-room-wrapper {
+   text-align: right;
+   min-width: auto;
+}
+.front-page-hotels .hotel-room-wrapper .hotel-room a {
+   margin: 0;
+   margin-right: 10px;
+   transition: all .3s ease;
+}
+
+.front-page-hotels .hotel-room-wrapper .hotel-room a:hover {
+   color: blue;
+}
+.front-page-hotel {
+   margin-top: 1em;
+}
+.front-page-hotel h4 {
+   text-align: center;
+}
+.front-page-hotels .hotel-room-wrapper .hotel-room {
+   width: 284px;
+}
+@media only screen and (max-width: 700px){
+    .nav_menu_top{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 112px;
+        right: 8px;
+        background-color: #efefef;
+        width: 97.5%;
+        align-items: stretch;
+
+    }
+    .icon_bar{
+        display: block !important;
+    }
+    .icon_piper{
+
+        display: none;
+    }
+    .nav_menu_top li a{
+        padding: 11px;
+        display: block;
+    }
+    .box_search{
+        width: 300px;
+    }
+    .box_start{
+        margin-left: 9px;
+    }
+    .item{
+        width: 77%;
+    }
+    .user_text{
+        display: none;
+    }
+    .item_section{
+        flex-direction: column;
+    }
+    .name_hotel{
+        width: 99%;
+    }
+    .item_footer{
+        flex-direction: column;
+    }
+    .item_footer div{
+        margin-top: 7px;
+    }
+    .container_room{
+        flex-direction: column;
+        width: 90%;
+    }
+    .room_singl_product{
+        width: 100%;
+        margin: 0;
+    }
+    .box_title_hotel a{
+        font-size: 10px;
+    }
+    .room{
+        width: 100% !important;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .text_room_price{
+        padding-right: 12px;
+    }
+    .price a{
+        padding: 4px 20px;
+        font-size: 12px;
+    }
+    .box_register{
+        width: 80%;
+    }
+    .box_register form input{
+        font-size: 12px;
+    }
+    .text_wegir{
+        display: none;
+    }
+    .title_wegir{
+        font-size: 8px!important;
+    }
+
+}
+@media only screen and (max-width: 1100px){
+    .cart_content{
+        flex-direction: column;
+
+    }
+    .description_room{
+        width: 100%;
+        margin: 10px auto;
+    }
+    .form_cart{
+        width: 100%;
+    }
+    .icon_wegir{
+        font-size: 20px;
+
+    }
+    .text_wegir{
+        font-size: 8px;
+    }
+    .title_wegir{
+        font-size: 12px;
+    }
+}
